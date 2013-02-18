@@ -1,0 +1,239 @@
+.booking h2
+{
+	font-size: 1.3em;
+}
+
+.bookingPopup
+{
+	width: 652px;
+	left: 14px;
+	top: 0;
+	position: absolute;
+	border: solid 1px #D0D0D0;
+	background-color: #fff;
+}
+
+.bookingPopup .cruiseDatesPrices { font-size: 0.85em; }
+
+.bookingHelp
+{
+	padding: 10px 0;
+	font-size: 0.9em;
+}
+
+.bookingHelp div
+{
+	padding: 5px 0 0 0;
+	font-size: 0.8em;
+}
+
+.searchaRegion { background:url(/images/tabSelected.png) no-repeat right top; }
+.searchaRegion h2 { background:url(/images/tabSelectedleft.png) no-repeat left top; }
+
+.searchaRegion h2 { color: #000; padding: 5px 0; text-align: center; font-size: 0.9em; font-weight: bold; }
+.searchaRegion dl { border:1px solid #d6d6d6; margin-bottom: 5px; }
+.searchaRegion dt { border-bottom:1px solid #f1f2f4; border-top:1px solid #999; color: #000; font-size: .65em; padding: 5px; background-color: #FFFFFF; font-weight: bold; }
+.searchaRegion dt.first { border-top:0px solid #999;}
+.searchaRegion dt img { padding: 0 0 0 2px; vertical-align: middle; }
+.searchaRegion dt a.criteriaLabel:link, .searchaRegion dt a.criteriaLabel:visited
+{
+	color: #000;
+}
+
+.searchaRegion dt a.criteriaLabel:hover
+{
+	color: #000;
+}
+
+.searchaRegion dt a.criteriaLabel:active
+{
+	color: #000;
+}
+.searchaRegion dd { padding:5px 7px 8px 7px; background-color:#EDEDED; vertical-align: middle; }
+.searchaRegion dd label.formItemLabel { display: block; float: left;  width: 40px; font-weight: normal; font-size: 0.7em; color: #666; }
+.searchaRegion input.txtBox, .searchaRegion .formDropDown { width: 120px; font-size: 0.7em; } 
+.searchaRegion h4 { font-weight: bold; font-size: 0.75em; padding: 5px 0; }
+.searchaRegion h4.first { padding: 0 0 5px 0; }
+.searchaRegion input.formChk { vertical-align: middle; margin: 0 3px 0 0; }
+* + html .searchaRegion input.formChk { margin: -3px 0px -3px -2px; }
+.searchaRegion dd.chkList div.chkHolder { padding: 3px 0; }
+* + html .searchaRegion dd.chkList div.chkHolder { padding: 0; }
+* html .searchaRegion dd.chkList div.chkHolder { padding: 0; }
+.searchaRegion dd.chkList div.chkHolder label { padding: 0 !important; font-size: 0.7em; }
+.searchaRegion dd.chkList div.chkHolder label a { font-weight: bold; font-size: 0.8em; }
+.searchaRegion dd.chkList span.sideBarSubSectionLink { float: right; text-align: right; font-size: 0.75em; }
+
+		.searchaRegion dt .actionLink
+		{
+		    font-weight:normal;
+		    text-transform: none;
+		}
+		.searchaRegion dd .fac_select
+        {
+            font-size: 0.65em;
+            font-weight: normal;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #DADADA;
+            margin-bottom: 5px;
+            padding-bottom:3px;
+        }
+        .searchaRegion dd .fac_select .actionLink
+        {
+            padding-left: 5px;
+            text-transform: none;
+        }
+		.searchaRegion dd .fac_select .sep
+        {
+            padding-left: 0px;
+            padding-right: 5px;
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-right-color: #DADADA;
+        }
+        
+        #searchProcess
+		{
+		    height:150px;
+            width:250px;
+		}
+		
+		#searchProcess p
+		{
+		    font-size:1.3em;
+            font-weight:bold;
+            padding:20px 0;
+            text-align:center;
+		}
+		
+
+
+/*=============[ search results ]======================================================*/
+.searchResultsSection { padding: 0 0 30px 0; }
+.searchResult { padding-top: 20px; }
+.searchResult .actionLink { font-size: 0.65em; }
+.searchResultsSection .bookNow { font-weight: bold; font-size: 0.75em; }
+.searchResultsSection h4 { font-size: 0.75em; color: #666; }
+.searchResultCruiseName { float: left; font-weight: bold; font-size: 0.9em; padding-left: 7px; }
+.searchResultPrice { font-size: 0.8em; font-style:italic; }
+.searchResultDates { float: left; font-size: 0.8em; font-style:italic; }
+.searchResultShip {font-size: 0.7em;}
+.searchResultCats { font-size: 0.8em;}
+.searchResultCatPrice { white-space: nowrap; }
+.searchResultsSection div.searchError { padding: 36px 0 50px 0; }
+.searchResultsSection div.searchError p { font-size: 0.9em; font-weight: bold; }
+.searchResultsSection div.searchError div { padding: 5px 0; text-align: right; }
+.searchResultsSection div.searchError div a { font-size: 0.8em; }
+.searchOver { display:none; }
+.booking .cfLarge h3 a { float: right; }
+.booking .popupDetail .shipName { font-size: 0.8em; font-weight: bold; }
+.popupDetail .categoryDetailsTitle a { float: right; font-size: 1.2em; font-weight: bold; }
+
+a.sortpick:link, a.sortpick:visited
+{
+	color: #BA533C;
+	text-transform: uppercase;
+}
+a.sortpick:hover
+{
+	color: #000;
+	text-transform: uppercase;
+}
+a.sortpick:active
+{
+	color: #BA533C;
+	text-transform: uppercase;
+}
+
+a.sortpicked { color: #000; font-weight: bold; text-decoration: underline; text-transform: uppercase; }
+
+a.pagepicked:link, a.pagepicked:visited
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+a.pagepicked:hover
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+a.pagepicked:active
+{
+	color: #000;
+	text-decoration: none;
+}
+
+.sortSearchResults { font-size: 0.8em; }
+.sortSearchResults h2 { float: left; }
+.sortSearchResults .searchResultsShowandNo { float: left; padding: 4px 0 0 10px; }
+.searchPagination { clear: both; text-align: center; padding: 10px 0; }
+
+/*=============[ search form ]======================================================*/
+div.bookingSearchForm
+{
+	padding: 0 0 0 0;
+}
+
+div.formSection
+{
+	padding: 10px 0 10px 0;
+}
+
+div.bookingSearchForm .formItemLabel
+{
+	padding: 0 20px 0 0;
+	font-weight: normal;
+	color: #666;
+	display: block;
+	float: left;
+}
+
+div.topFormResultCount
+{
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #000;
+}
+
+div.bookingSearchForm .formListBox, div.bookingSearchForm .formDropDown, div.bookingSearchForm input
+{
+	font-size: 0.75em;
+}
+
+div.bookingSearchForm option
+{
+	padding: 0 5px;
+}
+
+.booking h4.searchDirections
+{
+	font-size: 0.9em;
+	padding: 15px 0 3px 0;
+}
+
+.booking div.col1
+{
+	float: left;
+	width: 265px;
+}
+
+.booking div.col2
+{
+	float: left;
+	width: 330px;
+}
+
+.booking .taFormItemRight div
+{
+	padding: 5px 0;
+}
+
+.booking .dpPromo
+{
+	padding-top: 10px;
+}
+
+

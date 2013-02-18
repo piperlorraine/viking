@@ -1,0 +1,826 @@
+#mainNav
+{
+	clear: both;
+	font-size: 0.8em;
+	white-space: nowrap;
+}
+
+#countryNav
+{
+	white-space: nowrap;
+}
+
+div.regionSelector 
+{
+	padding: 36px 0 0 20px;
+	font-size: 0.75em;
+	float: left;
+}
+
+div.regionSelector .currentRegion
+{
+	padding: 0 11px;
+	font-weight: bold;
+	font-size: 0.85em;
+}
+
+div#mainNav ul {
+	list-style: none;
+	display: block;
+	z-index: 100;
+}
+
+div#countryNav ul {
+	list-style: none;
+	display: block;
+	z-index: 105;
+}
+
+div#mainNav ul.level1 
+{	
+	float: right;
+	padding-right: 24px;
+	position: relative;
+	z-index: 100;
+}
+
+div#countryNav ul.level1 
+{	
+	float: left;
+	position: relative;
+	z-index: 105;
+}
+
+div#mainNav ul.level1 li.l1 {
+	float: left;
+	position: relative;
+	text-transform: uppercase;
+}
+
+div#mainNav ul.level1 li.l1, div#countryNav ul.level1 li.l1 {
+	float: left;
+	position: relative;
+	text-transform: uppercase;
+}
+
+div#mainNav ul.level1 li.l1:hover, div#countryNav ul.level1 li.l1:hover
+{	
+	background:url(/images/tabSelected.png) no-repeat right top;
+}
+
+div#mainNav ul.level1 li.l1 a.l1, div#countryNav ul.level1 li.l1 a.l1 {
+	display: block;
+	text-decoration: none;
+}
+
+div#mainNav ul.level1 li.l1:hover a.l1, div#countryNav ul.level1 li.l1:hover a.l1
+{	
+	background:url(/images/tabSelectedleft.png) no-repeat left top;
+	color: #000;
+	/*border: solid 1px #d6d6d6;
+	border-width: 1px 1px 0 1px;*/
+}
+
+div#mainNav ul.level1 li.l1 a span
+{
+	display: block;
+	padding: 10px 11px;
+}
+
+div#countryNav ul.level1 li.l1 a span
+{
+	display: block;
+	padding: 5px 11px;
+}
+
+div#mainNav ul.level1 li.currentTab a.l1 span strong
+{
+	font-weight: bold;
+	color: #333;
+}
+
+div#mainNav ul.level1 li.submenu a span, div#countryNav ul.level1 li.submenu a span
+{
+	display: block;
+}
+
+div#mainNav ul.level1 li.l1 ul.level2, div#countryNav ul.level1 li.l1 ul.level2, div.cruiseNavTabs ul.level2
+{
+	display: none;
+	position: absolute;
+	border: solid 1px #d6d6d6;
+	border-width: 1px 1px 1px 1px;
+	background: #fff;
+	font-size: 0.9em;
+}
+
+div.cruiseNavTabs ul.level2
+{
+	z-index:105;
+}
+
+div#mainNav ul.level1 li.submenu:hover ul.level2, div#countryNav ul.level1 li.submenu:hover ul.level2, div.cruiseNavTabs li.submenu:hover ul.level2
+{
+	display: block;
+}
+
+div#mainNav ul.level1 li ul.level2 li, div#countryNav ul.level1 li ul.level2 li, div.cruiseNavTabs ul.level2 li
+{
+	float: none;
+	background: #fff;
+}
+
+div.cruiseNavTabs ul.level2 li
+{
+	font-weight:normal;
+}
+
+div.cruiseNavTabs ul.level2 li.currentTab
+{
+	background-image:none;
+}
+
+div#mainNav ul.level1 li ul.level2 li.authWarning a
+{
+	font-weight: bold;
+	background-color: #FAF575;
+	color: #000;
+}
+
+div#mainNav ul.level1 li ul.level2 li.authWarning a:hover
+{
+	background-color: #FAF575;
+}
+
+div#mainNav ul.level1 li ul.level2 li a, div#countryNav ul.level1 li ul.level2 li a, div.cruiseNavTabs ul li ul.level2 li a
+{
+	display: block;
+	background-image: none;
+	padding: 6px 11px;
+	text-transform: none;
+	color: #999;
+}
+
+div#mainNav ul.level1 li ul.level2 li a:hover, div#countryNav ul.level1 li ul.level2 li a:hover, div.cruiseNavTabs ul li ul.level2 li a:hover
+{
+	background: #EDEDED;
+	color: #000;
+}
+div.cruiseNavTabs ul li.active a
+{
+	background:url('/images/tabSelected.png') no-repeat right top;
+}
+
+	#mainNav .customBlock .column
+	{
+	    float:left;
+	    margin: 10px 10px 0px 10px;
+	    padding-bottom:10px;
+	    display:inline;
+	}
+	
+	#mainNav .customBlock label
+	{
+	    border-bottom: 1px solid #cdcbcc;
+	    margin: 0px 6px;
+	    display:block;
+	}
+	
+	div#mainNav ul.level1 li ul.level2 .customBlock label a
+	{	
+	    color:#7d7d7d;
+	    padding: 6px 5px;
+	    font-size:12px;
+	    font-weight:bold;
+	}
+	
+	div#mainNav ul.level1 li.l1 .customBlock
+	{
+	    text-transform:none;
+	}
+	
+    div#mainNav ul.level1 li ul.level2 .customBlock ul li a
+	{
+        line-height: 0.8em;
+        padding: 6px 5px;
+        margin: 0px 6px;
+	}
+	
+	div#mainNav ul.level1 li ul.level2 .customBlock a.imgLink
+	{
+	    padding:0px;
+	    margin:0px;
+	}
+	
+	div#mainNav ul.level1 li ul.level2 .customBlock em a
+	{
+	    color:#9F1B32;
+	    font-style:normal;
+	    padding:6px 5px;
+	}
+	
+	#mainNav .level2 p
+	{
+	    font-size: 12px;
+        line-height: 18px;
+        margin: 5px 3px;
+        white-space: normal;
+	}
+
+/* Secondary */
+div#secNav
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 642px;
+	/*width: 910px;*/
+	padding: 0 22px;
+	height: 25px;
+	background-color: #EFE8C5;
+	/*background-color: #A80532;*/
+	white-space: nowrap;
+	font-size: 0.7em;
+	/*z-index: 1;*/
+}
+
+div#secNav ul 
+{
+	list-style: none;
+	display: block;
+}
+
+div#secNav ul li 
+{
+	height: 25px;
+	float: left;
+	text-transform: uppercase;
+}
+
+div#secNav ul li:hover
+{	
+	background:url(/images/tabSelected.png) no-repeat right top;
+}
+
+div#secNav ul li a
+{
+	display: block;
+	padding: 6px 7px; /* ff3 dates and pricing drops off */
+	color: #444;
+}
+
+div#secNav ul li:hover a
+{	
+	background:url(/images/tabSelectedleft.png) no-repeat left top;
+	color: #000;
+	/*border: solid 1px #d6d6d6;
+	border-width: 1px 1px 0 1px;*/
+}
+
+div#secNav ul li a:hover
+{
+	color: #000;
+}
+
+div#secNav ul li.currentTab
+{
+	background-color: #fff;
+	font-weight: bold;
+	color: #000;
+}
+
+div#secNav ul li.currentTab a
+{
+	color: #333;
+}
+
+
+/* Cruise */
+div#cruiseNav
+{
+	padding: 10px 36px 0 36px;
+	font-size: 0.8em;
+}
+
+div#cruiseNav ul 
+{
+	list-style: none;
+	display: block;
+}
+
+div#cruiseNav ul li 
+{
+	float: left;
+}
+
+div#cruiseNav ul li.spacer
+{
+	padding: 0 5px;
+}
+
+div#cruiseNav ul li a {
+	display: block;
+}
+
+div#cruiseNav ul li.currentTab
+{
+	font-weight: bold;
+}
+
+div#cruiseNav ul li.currentTab a
+{
+	color: #333;
+}
+
+
+
+
+
+
+/* Third Level Nav */
+div.thrdNav ul
+{
+	padding: 10px 0 20px 0;
+	list-style: none;
+}
+
+div.thrdNav ul li
+{
+	padding-bottom: 20px;
+	font-size: 0.8em;
+}
+
+div.thrdNav ul li a.active
+{
+	color: #000;
+	font-weight: bold;
+}
+
+div.thrdNav ul li.spacer
+{
+	display:none;
+}
+
+
+/* Step Control */
+.stepHolder
+{
+	margin: 0 auto;
+	width: 505px;
+}
+
+div#stepList
+{
+	float: left;
+	padding: 0 22px;
+	height: 25px;
+	background-color: #EFE8C5;
+	white-space: nowrap;
+	font-size: 0.7em;
+	line-height: normal;
+}
+
+div#stepList ul 
+{
+	list-style: none;
+	display: block;
+}
+
+div#stepList ul li 
+{
+	height: 25px;
+	float: left;
+	text-transform: uppercase;
+}
+
+div#stepList ul li a, div#stepList ul li span {
+	display: block;
+	padding: 6px 12px;
+}
+
+div#stepList ul li.currentTab
+{
+	background-color: #fff;
+	font-weight: bold;
+}
+
+div#stepList ul li.currentTab a, div#stepList ul li.currentTab span
+{
+	color: #333;
+}
+
+.navigation
+{
+	font-size:0.8em;
+	padding:5px 0;
+}
+
+div.newReviewsBtn
+{
+	float:right;
+	display:inline;
+}
+
+.cruiseHeaderLeft
+{
+    float:left;
+    padding-bottom:10px;
+    width:360px;
+}
+.CruiseNavWrapper 
+{
+    padding-bottom:30px;
+}
+div.cruiseNavTabs
+{
+	clear:left;
+	margin: 8px 0 5px 0;
+	white-space: nowrap;
+	font-size: 0.7em;
+	border: solid 1px #d6d6d6;
+	border-width: 0 0 1px 0;
+}
+
+div.cruiseNavTabs ul 
+{
+	list-style: none;
+}
+
+div.cruiseNavTabs ul li 
+{
+	float: left;
+	text-transform: uppercase;
+}
+
+div.cruiseNavTabs ul li:hover
+{	
+	background:url(/images/tabSelected.png) no-repeat right top;
+}
+
+div.cruiseNavTabs ul li.spacer
+{    
+    font-size:1.3em;
+}
+
+div.cruiseNavTabs ul li.spacer:hover
+{
+    background:none;
+}
+
+div.cruiseNavTabs ul li a
+{
+	display: block;
+	padding: 3px 5px;
+	color: #444;
+}
+
+div.cruiseNavTabs ul li:hover a
+{	
+	background:url(/images/tabSelectedleft.png) no-repeat left top;
+	color: #000;
+	/*border: solid 1px #d6d6d6;
+	border-width: 1px 1px 0 1px;*/
+}
+
+div.cruiseNavTabs ul li a:hover
+{
+	color: #000;
+}
+
+div.cruiseNavTabs ul li.currentTab
+{
+	background-color: #fff;
+	font-weight: bold;
+	color: #000;
+	background:url(/images/tabSelected.png) no-repeat right top;
+}
+
+div.cruiseNavTabs ul li.currentTab a
+{
+	color: #333;
+	background:url(/images/tabSelectedleft.png) no-repeat left top;
+}
+/* added in for extension */
+div.cruiseNavTabsLeft
+{
+	/*width:70%;*/
+	font-size: 0.8em;
+	border:none;	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	white-space: normal;
+	text-align:center;
+}
+
+div.cruiseNavTabsLeft h3
+{
+	text-align:left;
+}
+
+div.cruiseNavTabsLeft ul li
+{
+	text-transform: none;
+}
+
+div.cruiseNavTabsYear
+{
+	font-size: 0.8em;
+	border: none;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+	float:right;
+	text-align:right;	
+	width:160px;
+}
+
+div.cruiseNavTabsYear ul
+{
+	float:right;
+}
+
+
+div.cruiseNavTabsYear h3, div.cruiseNavTabsLeft h3
+{
+	font-size: 0.9em;
+	text-transform:uppercase;
+}
+
+div.cruiseNavTabsLeft ul li.currentTab, div.cruiseNavTabsLeft ul li.currentTab a, div.cruiseNavTabsLeft ul li:hover, div.cruiseNavTabsLeft ul li:hover a,
+div.cruiseNavTabsYear ul li.currentTab, div.cruiseNavTabsYear ul li.currentTab a, div.cruiseNavTabsYear ul li:hover, div.cruiseNavTabsYear ul li:hover a
+{
+	background:none;
+}
+
+div.cruiseNavTabsYear ul li a, div.cruiseNavTabsLeft ul li a
+{
+	padding-top: 0px;
+}
+
+div.cruiseNavTabsYear ul li.spacer, div.cruiseNavTabsLeft ul li.spacer
+{    
+    font-size: 1em;
+}
+
+div.ShipSubNav li a:link, div.ShipSubNav li a:visited
+{
+	color: #BA533C;
+	text-decoration: underline;
+}
+
+div.ShipSubNav li a:hover, div.ShipSubNav li a:active
+{
+	color: #BA533C;
+	text-decoration: none;
+}
+
+div.ShipSubNav li.currentTab a:link, div.ShipSubNav li.currentTab a:visited
+{
+	text-decoration: none;
+}
+
+div.ShipSubNav li.currentTab a:link, div.ShipSubNav li.currentTab a:visited, div.ShipSubNav li.currentTab a:hover, div.ShipSubNav li.currentTab a:active
+{
+	color: #333333;
+}
+
+
+/* Ships Stateroom Nav */
+div.ShipStateroomNav
+{
+	float:left;
+}
+
+div.ShipStateroomFoot
+{
+	border-color:#D6D6D6;
+	border-style:solid;
+	border-width:0 0 1px;
+	margin-bottom:15px;
+	clear:both;
+}
+
+div.ShipStateroomNav table
+{
+	border-collapse:collapse;
+	border-style:none;
+	padding:0px;
+	margin:0px;
+}
+
+div.ShipStateroomNav a
+{
+	display:block;
+	font-weight:bold;
+	font-size: 0.7em;
+	text-align:center;
+	padding: 10px;
+	line-height:1.2em;
+}
+
+div.ShipStateroomNav td a:link, div.ShipStateroomNav td a:visited
+{
+	color:#FFFFFF;
+	
+}
+
+div.ShipStateroomNav td a:hover, div.ShipStateroomNav td a:active
+{
+	color:#333333;
+}
+
+div.ShipStateroomNav td.current
+{
+	border-color:#4F4F4F;
+	border-style:solid;
+	border-width:0 0 3px;
+}
+
+div.ShipStateroomNav td a
+{
+	text-transform:uppercase;
+}
+
+div.ShipStateroomNav td.current a:link, div.ShipStateroomNav td.current a:visited
+{
+	color:#333333;
+	
+}
+
+div.ShipStateroomNav td.current a:hover, div.ShipStateroomNav td.current a:active
+{
+	color:#333333;
+}
+
+/* Ships Sub Nav */
+
+
+/* Ticker Nav */
+#ticker-placement{ margin:10px 0px -20px 18px; }
+#ticker-placement.grid { margin-left:10px;}
+#ticker-placement.grid #ticker-wrapper.has-js { width:933px; }
+#ticker-wrapper.has-js{width:914px;height:30px;border:1px solid #CFCFCF;display:block;font-family:Arial;font-size:.75em;margin:0 0 0 0}
+#ticker{width:850px;height:23px;display:block;float:left;position:relative;overflow:hidden;background-color:#fff;padding:0 0 0 0}
+#ticker-title{padding-top:7px;padding-left:10px;float:left;display:inline;color:#900;font-weight:700;background-color:#fff;text-transform:uppercase}
+#ticker-title span{display:block;}
+#ticker-content{padding-top:7px;float:left;position:absolute;color:#1F527B;font-weight:700;background-color:#fff;margin:0}
+#ticker-content A{text-decoration:none;color:#1F527B}
+#ticker-content A:hover{text-decoration:underline;color:#0D3059}
+#ticker-swipe{padding-top:7px;position:absolute;top:0;left:95px;background-color:#fff;display:block;width:800px;height:23px}
+#ticker-swipe SPAN{margin-left:1px;background-color:#fff;border-bottom:1px solid #1F527B;height:12px;width:7px;display:block}
+#ticker-controls{list-style-type:none;float:right;padding:7px 10px 0 0;display:none;}
+#ticker-controls LI{float:left;cursor:pointer;height:16px;width:16px;display:block;padding:0}
+#ticker-controls LI#play-pause{	background-image: url(../images/play.gif);}
+#ticker-controls LI#play-pause.paused{	background-image: url(../images/pause_2.gif);}
+#ticker-controls LI#prev{background-image:url(../images/controls.gif);background-position:0 16px}
+#ticker-controls LI#prev.over{background-position:0 32px}
+#ticker-controls LI#prev.down{background-position:0 0}
+#ticker-controls LI#next{background-image:url(../images/controls.gif);background-position:16px 16px}
+#ticker-controls LI#next.over{background-position:16px 32px}
+#ticker-controls LI#next.down{background-position:16px 0}
+.js-hidden{display:none}
+
+
+/* dropdown implementation */
+/*
+#directionNav
+{
+	float: left;
+	width: 462px;
+}
+
+#extNavNew
+{
+	float: left;
+	width: 462px;
+}
+
+#yearNav
+{	
+	float:right;
+	width: 85px;
+}
+
+.cruise2ndNav
+{	
+	font-size: 0.8em;	
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.cruise2ndNav h3
+{
+	font-size:0.85em;
+	color: #999;
+	text-transform: uppercase;
+}
+
+.cruise2ndNav ul {
+	list-style: none;
+	display: block;
+	z-index: 100;	
+}
+
+.cruise2ndNav ul.level1 
+{		
+	padding-right: 24px;
+	position: relative;
+	z-index: 100;
+}
+
+.cruise2ndNav ul.level1 li.l1 {
+	float: left;
+	position: relative;
+	text-transform: uppercase;	
+}
+
+
+.cruise2ndNav ul.level1 li.l1 a.l1 {
+	display: block;
+	text-decoration: none;
+}
+
+.cruise2ndNav ul.level1 li.l1 div
+{		
+	color:#000;
+	cursor: pointer;	
+}
+
+.cruise2ndNav ul.level1 li.l1 div div
+{		
+	padding: 4px 4px;
+}
+
+.cruise2ndNav ul.level1 li.l1:hover
+{
+	background:url(/images/tabSelected.png) no-repeat right top;
+}
+
+.cruise2ndNav ul.level1 li.l1:hover div
+{	
+	background:url(/images/tabSelectedleft.png) no-repeat left top;	
+}
+
+.cruise2ndNav ul.level1 li.l1 ul.level2 
+{
+	display: none;
+	position: absolute;
+	border: solid 1px #d6d6d6;
+	border-width: 1px 1px 0px 1px;
+	background: #fff;
+	color:#999;
+}
+
+.cruise2ndNav ul.level1 li.submenu:hover ul.level2 {
+	display: block;
+	left:0;
+	top:100%;
+}
+
+.cruise2ndNav ul.level1 li ul.level2 li {
+	float: none;
+	background: #fff;
+	border: solid 1px #d6d6d6;
+	border-width: 0 0 1px 0;
+	white-space: nowrap;
+}
+
+.cruise2ndNav ul.level1 li ul.level2 li a {
+	display: block;
+	background-image: none;
+	padding: 3px 15px;
+	text-transform: none;
+	color: #999;	
+}
+
+.cruise2ndNav ul.level1 li ul.level2 li a:hover
+{
+	background: #EDEDED;
+	color: #000;
+}
+
+#directionNav.cruise2ndNav ul.level1 
+{	
+	padding-right: 24px;
+	position: relative;
+	z-index: 200;
+}
+
+#yearNav.cruise2ndNav ul.level1 
+{		
+	margin-left:35px;
+}
+
+#yearNav.cruise2ndNav ul.level1 
+{		
+	padding-right:0px;	
+}
+
+#yearNav.cruise2ndNav ul.level1 li ul.level2 li a {
+	display: block;
+	background-image: none;
+	padding: 6px 9px;
+	text-transform: none;
+	color: #999;
+}
+*/
+/* end */

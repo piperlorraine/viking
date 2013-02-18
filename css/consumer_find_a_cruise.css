@@ -1,0 +1,582 @@
+body .facHeading
+{
+    height:129px;
+}
+
+.booking h2
+{
+	font-size: 1.3em;
+}
+
+.bookingPopup
+{
+	width: 652px;
+	left: 14px;
+	top: 0;
+	position: absolute;
+	border: solid 1px #D0D0D0;
+	background-color: #fff;
+}
+
+.bookingPopup .cruiseDatesPrices { font-size: 0.85em; }
+
+.bookingHelp
+{
+	padding: 10px 0;
+	font-size: 0.9em;
+}
+
+.bookingHelp div
+{
+	padding: 5px 0 0 0;
+	font-size: 0.8em;
+}
+
+.searchaRegion { background:url(/images/tabSelected.png) no-repeat right top; }
+.searchaRegion h2 { background:url(/images/tabSelectedleft.png) no-repeat left top; }
+
+.searchaRegion h2 { color: #000; padding: 5px 0; text-align: center; font-size: 0.9em; font-weight: bold; }
+.searchaRegion dl { border:1px solid #d6d6d6; margin-bottom: 5px; }
+.searchaRegion dt { border-bottom:1px solid #f1f2f4; border-top:1px solid #999; color: #000; font-size: .65em; padding: 5px; background-color: #FFFFFF; font-weight: bold; }
+.searchaRegion dt.first { border-top:0px solid #999;}
+.searchaRegion dt img { padding: 0 0 0 2px; vertical-align: middle; }
+.searchaRegion dt a.criteriaLabel:link, .searchaRegion dt a.criteriaLabel:visited
+{
+	color: #000;
+}
+
+.searchaRegion dt a.criteriaLabel:hover
+{
+	color: #000;
+}
+
+.searchaRegion dt a.criteriaLabel:active
+{
+	color: #000;
+}
+.searchaRegion dd { padding:5px 7px 8px 7px; background-color:#EDEDED; vertical-align: middle; }
+.searchaRegion dd label.formItemLabel { display: block; float: left;  width: 40px; font-weight: normal; font-size: 0.7em; color: #666; clear:left; line-height:1.7em; }
+.searchaRegion input.txtBox, .searchaRegion .formDropDown { width: 145px; font-size: 0.7em; } 
+.searchaRegion h4 { font-weight: bold; font-size: 0.75em; padding: 5px 0; }
+.searchaRegion h4.first { padding: 0 0 5px 0; }
+.searchaRegion input.formChk { vertical-align: middle; margin: 0 3px 0 0; }
+* + html .searchaRegion input.formChk { margin: -3px 0px -3px -2px; }
+.searchaRegion dd.chkList div.chkHolder { padding: 3px 0; }
+* + html .searchaRegion dd.chkList div.chkHolder { padding: 0; }
+* html .searchaRegion dd.chkList div.chkHolder { padding: 0; }
+.searchaRegion dd.chkList div.chkHolder label { padding: 0 !important; font-size: 0.7em; }
+.searchaRegion dd.chkList div.chkHolder label a { font-weight: bold; font-size: 0.8em; }
+.searchaRegion dd.chkList span.sideBarSubSectionLink { float: right; text-align: right; font-size: 0.75em; }
+
+
+/*=============[ search results ]======================================================*/
+.searchResultsSection { padding: 0 0 30px 0; }
+.searchResult { padding-top: 20px; }
+.searchResult .actionLink { font-size: 0.65em; }
+.searchResultsSection .bookNow { font-weight: bold; font-size: 0.75em; }
+.searchResultsSection h4 { font-size: 0.75em; }
+.searchResultCruiseName { float: left; font-weight: bold; font-size: 0.9em; padding-left: 7px; }
+.searchResultPrice { font-size: 0.8em; font-style:italic; }
+.searchResultDates { float: left; font-size: 0.8em; font-style:italic; }
+.searchResultShip {font-size: 0.7em;}
+.searchResultCats { font-size: 0.8em;}
+.searchResultCatPrice { white-space: nowrap; }
+.searchResultsSection div.searchError { padding: 36px 0 50px 0; }
+.searchResultsSection div.searchError p { font-size: 0.9em; font-weight: bold; }
+.searchResultsSection div.searchError div { padding: 5px 0; text-align: right; }
+.searchResultsSection div.searchError div a { font-size: 0.8em; }
+.searchOver { float:right; line-height: 32px; }
+.searchOver a { text-transform:uppercase; }
+.booking .cfLarge h3 a { float: right; }
+.booking .popupDetail .shipName { font-size: 0.8em; font-weight: bold; }
+.popupDetail .categoryDetailsTitle a { float: right; font-size: 1.2em; font-weight: bold; }
+
+
+a.fac_shipLink:link, a.fac_shipLink:visited, a.fac_shipLink:hover, a.fac_shipLink:active
+{
+    text-decoration: underline;
+}
+
+
+a.sortpick:link, a.sortpick:visited
+{
+	color: #BA533C;
+	text-transform: uppercase;
+}
+a.sortpick:hover
+{
+	color: #000;
+	text-transform: uppercase;
+}
+a.sortpick:active
+{
+	color: #BA533C;
+	text-transform: uppercase;
+}
+
+a.sortpicked { color: #000; font-weight: bold; text-decoration: underline; text-transform: uppercase; }
+
+a.pagepicked:link, a.pagepicked:visited
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+a.pagepicked:hover
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+a.pagepicked:active
+{
+	color: #000;
+	text-decoration: none;
+}
+
+.sortSearchResults { font-size: 0.8em; }
+.sortSearchResults .searchResultsShowandNo { float: left; padding: 0px; width:205px; line-height:32px;  }
+.searchPagination { clear: none; text-align: left; padding: 0px; line-height:32px; margin-bottom: 5px; }
+
+/*=============[ search form ]======================================================*/
+div.bookingSearchForm
+{
+	padding: 0 0 0 0;
+}
+
+div.formSection
+{
+	padding: 10px 0 10px 0;
+}
+
+div.bookingSearchForm .formItemLabel
+{
+	padding: 0 20px 0 0;
+	font-weight: normal;
+	color: #666;
+	display: block;
+	float: left;
+}
+
+div.topFormResultCount
+{
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #000;
+}
+
+div.bookingSearchForm .formListBox, div.bookingSearchForm .formDropDown, div.bookingSearchForm input
+{
+	font-size: 0.75em;
+}
+
+div.bookingSearchForm option
+{
+	padding: 0 5px;
+}
+
+.booking h4.searchDirections
+{
+	font-size: 0.9em;
+	padding: 15px 0 3px 0;
+}
+
+.booking div.col1
+{
+	float: left;
+	width: 265px;
+}
+
+.booking div.col2
+{
+	float: left;
+	width: 330px;
+}
+
+.booking .taFormItemRight div
+{
+	padding: 5px 0;
+}
+
+.booking .dpPromo
+{
+	padding-top: 10px;
+}
+
+
+/******************************
+	Cruise Quick Info
+*******************************/   
+
+.crsQI
+{
+    background-color:#FFFFFF;
+    color:#666666;
+}
+
+.crsQI .ctas
+{
+    margin-left: 350px;
+    position: absolute;
+    z-index: 9;
+}
+
+.crsQI .ctas .sep
+{
+    margin-right: 15px;
+}
+
+.crsQI .cruiseImgsHolder, .crsQI .cruiseImgsHolder img  
+{
+   width: 686px; 
+   height: 262px;
+}
+
+.crsQI .cruiseDetails 
+{
+    width: 686px;
+    color:#FFFFFF;
+}
+
+.crsQI .cruiseDetails .cWrapper
+{
+    padding: 11px 12px 11px 12px;
+    text-align:left;
+}
+
+.crsQI .cruiseDetails span
+{
+    white-space: nowrap;
+    font-weight:normal;
+}
+
+.crsQI .daysHolder
+{
+    padding-top:10px;
+}
+
+.crsQI .daysHolder h3
+{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    padding: 0 0 10px;
+}
+
+.crsQI div.col1, .crsQI div.col2, .crsQI div.col3
+{
+    float:left;
+    width:225px;
+    display:block;
+}
+
+.crsQI .mainCol1Day
+{
+    display:inline;
+    float:left;
+    padding-left: 12px;
+    padding-right:0px;
+}
+
+.crsQI div.col1 .mainCol1Location, .crsQI div.col2 .mainCol1Location, .crsQI div.col3 .mainCol1Location
+{
+    margin-left:50px;
+    display:block;
+}
+
+.crsQI a.CTA_sml, .crsQI a.CTA_sml:link, .crsQI a.CTA_sml:visited, .crsQI a.CTA_sml:hover, .crsQI a.CTA_sml:active {
+    background: url("/images/cta-button-sml-a-t.gif") no-repeat scroll left bottom transparent;
+    padding-left: 5px;
+    padding-right:0px;
+}
+
+.crsQI a.CTA_sml span, .crsQI a.CTA_sml:link span, .crsQI a.CTA_sml:visited span, .crsQI a.CTA_sml:hover span, .crsQI a.CTA_sml:active span {
+    background: url("/images/cta-button-sml-b-t.gif") no-repeat scroll right bottom transparent;
+    padding-right:29px;
+    padding-left: 5px;w
+}
+
+
+
+
+/******************************
+	Consumer Find a Cruise imported style to be sorted
+*******************************/   
+		#searchProcess
+		{
+		    height:150px;
+            width:250px;
+		}
+		
+		#searchProcess p
+		{
+		    font-size:1.3em;
+            font-weight:bold;
+            padding:20px 0;
+            text-align:center;
+		}
+		
+		.consumerCruise
+		{
+		    padding-top:30px;
+		}
+		
+		.consumerCruise .sideBar
+		{
+		   display:inline;
+		   width:247px;
+		   padding:0px;
+		}
+		
+		.consumerCruise .contactViking
+		{
+		    margin-right:27px;
+		}
+		
+		.results h2
+		{
+		    color:#BA533C;
+		    font-size:1.3em;
+		}
+		
+		#dvSimple, #dvAdvanced
+		{
+			background-color: #EDEDED;
+			margin-bottom:20px;
+			margin-right:27px;
+			font-size:1.1em;
+		}
+		
+		.simpleSearch
+		{
+			background-color: #EDEDED;
+			padding: 8px 7px;
+			vertical-align: middle;
+			border: 1px solid #D6D6D6;
+		}
+		.simpleSearch .formDropDown
+		{
+			margin: 3px 0 3px 0;
+			font-size: 0.8em;
+			width: 180px;
+			color: #666666;
+		}
+		.searchLinks
+		{
+			margin: 20px 0 15px 0;
+			font-size: 0.8em;
+		}
+		.searchBtn
+		{
+			margin: 5px 0 0 0;
+		}
+		
+		
+		body .results
+		{
+		    padding-top:0px;
+		}
+		.results table
+		{
+			font-size: 0.8em;
+			width: 99%;
+			text-align: left;
+			margin-bottom: 25px;
+		}
+		.results table th
+		{
+			font-weight: normal;
+			font-style: italic;
+		}
+		.results table th, .results table td
+		{
+			padding: 3px;
+			font-size: 0.85em;
+		}
+		.results .cruiseCTA
+		{
+			float: right;
+		}
+		.results .cruiseList .cfLarge .imgHolder
+		{
+			clear: right;
+			margin-bottom: 10px;
+		}
+		.results table th
+		{
+			border-bottom: solid 1px #DFDFDF;
+			text-align: left;
+		}
+		
+		.results table td em
+        {
+            line-height: 29px;
+            font-style: normal;
+            color: #9F1B32;
+        }
+		
+		.results .sortSearchResults
+		{
+			margin: 10px 0 -10px 0;
+		}
+		.results .sortSearchResults p
+		{
+			font-size: 0.9em;
+			clear: both;
+		}
+		.results .sortSearchResults p em
+		{
+			font-style: normal;
+			font-weight: bold;
+			width: 135px;
+			text-align: right;
+			display: block;
+			float: left;
+		}
+		.searchToggle a span
+		{
+			font-size: 0.75em;
+			display: block;
+			font-weight: normal;
+		}
+		.searchToggle a span
+		{
+			color: #BA533C;
+			font-style: normal;
+			text-decoration: underline;
+		}
+		.searchToggle a:link span, .searchToggle a:visited span
+		{
+			color: #BA533C;
+			text-decoration: underline;
+		}
+		.searchToggle a:hover span, .searchToggle a:active span
+		{
+			color: #000000;
+			text-decoration: none;
+		}
+		.searchToggle
+		{
+			margin-top: 20px;
+		}
+		.searchaRegion dt .actionLink
+		{
+		    font-weight:normal;
+		    text-transform: none;
+		    font-size:1.05em;
+		}
+		.searchaRegion dd .fac_select
+        {
+            font-size: 0.65em;
+            font-weight: normal;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: #DADADA;
+            margin-bottom: 5px;
+            padding-bottom:3px;
+        }
+        .searchaRegion dd .fac_select .actionLink
+        {
+            padding-left: 5px;
+            text-transform: none;
+            font-size:1.05em;
+        }
+		.searchaRegion dd .fac_select .sep
+        {
+            padding-left: 0px;
+            padding-right: 5px;
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-right-color: #DADADA;
+        }
+		.browseAll
+		{
+			display: block;
+			font-size: 0.65em;
+			font-weight: bold;
+			padding: 7px 10px 7px 10px;
+			border: 1px solid #D6D6D6;
+			border-top-style: none;
+		}
+		#dvSimple dl, #dvAdvanced dl
+		{
+			margin-bottom: 0px;
+		}
+		
+		.searchSideBarOffer .edbContainer
+		{
+			margin-top: 20px;
+		}		
+		
+		.results .cruiseList h5
+		{
+		    width:368px;
+		    margin:10px 0px 10px 2px;
+		    font-size:0.8em;
+		}
+		
+		.searchToolbar
+        {
+            margin-top: 20px;
+            background: url(/images/toolbar_bg.jpg) repeat-x right top;
+            padding-left:7px;
+            padding-right:7px;
+        }
+        
+        .results .cruiseList
+        {
+            background: url(/images/cruise_divider_bg.jpg) repeat-x right top;
+            margin-top:0;
+            padding-top:10px
+        }
+        .results .searchResultsSection .top
+        {
+            background-image: none;
+        }
+        
+        .fac_buttons
+        {
+            margin:0px 0px 15px 0px;
+            clear:both;
+        }
+       
+        .fac_buttons .fac_close {
+            float: left;
+            font-size: 0.8em;
+            line-height: 29px;
+            margin-right: 0;
+            text-align: left;
+        }
+        
+        .fac_buttons .fac_close .actionLink 
+        {
+            text-transform:none;
+        }
+        
+        .fac_buttons li
+        {
+            float: left;
+            margin-right: 20px;
+            list-style-type: none;
+        }
+        
+        .fac_itin_details
+        {
+            padding:10px;
+            border: 1px solid #DADADA;
+            margin: 0px 0px 15px 0px;
+        }
+        
+        
+        .inline .mainCol1
+        {            
+            padding: 0px;
+            width: 330px;
+        }
+        
+        .facSDate, .facSPrice, .facSCTA
+        {
+            white-space: nowrap;
+        }
+

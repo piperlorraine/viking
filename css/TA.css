@@ -1,0 +1,655 @@
+#mainNav
+{
+	padding-top: 10px;
+}
+
+.loginImage
+{
+	/*background-image: url(/images/signin.jpg);		
+	background-repeat: no-repeat;*/
+	border:none;
+	vertical-align:bottom;
+	width: 65px;
+}
+
+body .homeContent
+{
+	padding: 27px 18px 0 18px;
+}
+
+body .homeContent2
+{
+	padding: 27px 9px 0 9px;
+}
+
+#loginLinks a:link, #loginLinks a:visited, #loginLinks a:hover, #loginLinks a:active
+{
+	display:inline;
+}
+
+.taLogin, #agentLogin
+{
+	padding: 34px 0 0 0px;
+	color: #000;
+}
+
+.taPostLogin
+{
+	padding-left:200px;
+	font-size:0.8em;
+}
+
+.loginLink
+{
+	text-transform: uppercase;
+}
+
+#logout
+{
+	padding: 36px 0 0 36px;
+	font-size: 0.8em;
+	text-align: left;
+	color: #000;
+	float: left;
+	text-decoration: underline;
+}
+
+.taLogin input
+{
+	font-size: 0.7em;
+}
+
+.taLogin h2
+{
+	font-weight:bold;
+	font-size:1.2em;
+	padding:0 0 5px 0;
+}
+
+.taLogin h5
+{
+	display:inline;
+}
+
+.taLogin a
+{
+	font-size: 0.7em;
+	padding-right: 10px;
+}
+
+.taLogin label
+{
+	font-size: 0.7em;
+	padding-left: 8px;
+	color:#666666;
+}
+.rememberMe
+{
+	 padding-top: 5px;
+}
+.rememberMeChk
+{
+	float:left;
+}
+.rememberMe a
+{
+	padding-right:16px;
+}
+.rememberMe a:hover
+{
+	position:relative;
+}
+#rememberMeToolTip
+{
+	float:right;
+}
+#rememberMeToolTip:hover #rmTooltipText
+{
+	display:block;
+}
+.rememberMe #rmTooltipText
+{
+	position:absolute;
+	top:10;
+	left:10;
+	width:350px;
+	border:solid 1px #d6d6d6;
+	padding: 8px 8px 8px 8px;
+	display:none;
+	background: #fff;
+	font-size: 0.75em;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	color:#666666;
+	z-index:101;
+}
+.loginLabel
+{
+	width:100px;	
+	display:inline-block;
+}
+
+#loginLinks
+{
+	padding:5px 0 0 0;
+	clear:both;
+}
+
+.faqCategory h2
+{
+	padding-bottom: 15px;
+}
+
+.faqCategory p
+{
+	font-size: 0.8em;
+	padding-bottom: 30px;
+}
+
+/* modal popup stuff */
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+	width:100%;	
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:#000;
+	padding:5px;
+	width: 400px;
+	font-size:0.8em;
+}
+.modalPopup2
+{
+	background-color:#ECECE4;
+	border-width:2px;
+	border-style:solid;
+	border-color:#000;
+	padding:5px;
+	width: 400px;
+	font-size:0.8em;
+}
+.modalPopup a
+{
+	text-transform: uppercase;	
+}
+
+.divCenter
+{
+	text-align:center;	
+}
+
+#bodyWrapper .footer
+{
+    display:inline-block;
+    width:100%;
+}
+
+/* loginFeature */
+
+.loginFeatureContainer
+{
+	float: left;
+	width: 305px;
+	height: 92px;
+	background-image: url(/images/registernowbox_agents.gif);
+	padding: 35px 0 0 0;
+}
+
+.loginFeatureFormItem
+{
+	float: left;
+	width: 200px;
+	padding: 5px 15px 0 15px;
+	font-size: 0.75em;
+}
+
+.loginFeatureMore
+{
+	float: left;
+	width: 200px;
+	padding: 5px 15px 0 15px;
+	font-size: 0.70em;
+	text-transform: uppercase;
+}
+
+.loginFeatureErr
+{
+	color:#ff0000;
+}
+
+.loginFeatureMore a, .loginFeatureMore a:link, .loginFeatureMore a:visited
+{
+	color: #FFF;
+}
+
+.loginFeatureMore a:hover, .loginFeatureMore a:active
+{
+	color: #000;
+}
+
+.loginFeatureContainer .loginFeatureMore a, .loginFeatureContainer .loginFeatureMore a:link, .loginFeatureContainer .loginFeatureMore a:visited
+{
+	color:#999999;
+}
+
+.loginFeatureContainer .loginFeatureMore a:hover, .loginFeatureContainer .loginFeatureMore a:active
+{
+	color: #000;
+}
+
+.loginFeatureContainer .loginFeatureMore
+{
+	width:160px;
+}
+
+.postLogin p, .postLogin a
+{
+	font-size:0.8em;
+	padding-bottom:5px;
+}
+.postLogin div, .postLogin a
+{
+	padding-left:250px;	
+}
+
+/* ta forms */
+.taForm
+{
+	/*padding: 0 0 25px 5px;*/
+}
+
+.taForm h2
+{
+	color: #BA533C;
+	padding-bottom: 26px;
+}
+
+.taForm h3
+{
+	/*color:#000;
+	text-transform: uppercase;
+	border-bottom: solid 1px #ccc;*/
+	font-size: 0.9em;
+	font-weight:bold;
+	padding: 10px 0 0 0;
+}
+
+.taForm p
+{
+	font-size:0.8em;
+	padding-bottom: 10px;
+}
+
+.taFormError
+{
+	color:#FF0000;
+	/*padding-left:5px;
+	font-size:0.8em;*/
+}
+
+.taFormTblInfo
+{
+	border: none;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.taFormItem
+{
+	clear: left;
+	padding: 5px 0 5px 5px;	
+}
+
+.formDropDown
+{
+	width:305px;	
+}
+
+.taFormItem textarea
+{
+	padding:0 0 0 5px;
+}
+
+label.taFormItemLabel
+{
+	color:#666;
+	font-size: 0.8em;
+	width:230px;
+	display: block;
+	float: left;
+	vertical-align:top;
+}
+
+.taFormItemFlow
+{
+	color:#666;
+	font-size: 0.8em;
+}
+
+.taFormItemLabel_a, .olbFormItemLabel
+{
+	color:#666;
+	font-size: 0.8em;
+	display: block;
+	width:150px;
+	float: left;
+	vertical-align:top;
+}
+
+.taFormItemLabel_b
+{
+	color:#000;
+	font-size: 0.8em;
+	display: block;
+	float: left;
+	vertical-align:top;
+	padding:0 10px 0 5px;	
+}
+
+.olbFormItemLabel
+{
+	width: 200px;	
+}
+
+.taFormItemText
+{
+	width:300px;	
+}
+
+.taFormItemDDL, .olbFormItemDDL
+{
+	width:304px;	
+}
+
+.taFormItemRight, .taAgencyFormItemRight, .taContactItemRight
+{
+	font-size: 0.8em;
+	padding: 10px 0 25px 0;
+	text-align: right;
+}
+
+.taAgencyFormItemRight
+{	
+	width:535px;
+}
+
+.taContactItemRight
+{
+	width:447px;	
+}
+
+.taFormItemColor
+{
+	background-color:#EBEBEB;	
+}
+
+.taFormErrorSummary
+{
+	font-weight:bold;
+	font-size:0.9em;
+}
+
+.taFormErrorSummary ul li
+{
+	font-weight:normal;
+}
+
+
+/* BrochureForm */
+
+.TABrochureList
+{
+	padding: 20px 0 10px 0;
+}
+
+.taBrochureBox 
+{
+	width: 275px;
+	float: left;
+	padding: 0 0 10px 0;
+}
+
+.taBrochureBox h3
+{
+	color:#BA533C;
+	text-transform: none;
+}
+
+.taBrochureBox img 
+{
+	padding: 0;	
+}
+
+.taBrochureBoxSpacer
+{
+	padding-right: 25px;
+}
+
+.taBrochureBox table
+{
+	width:100%;
+}
+
+.taBrochureBox tr
+{
+	vertical-align:top;
+}
+
+td.taBrochureBox
+{
+	width:235px;
+	text-align:center;
+}
+
+.taBrochureFormDdl
+{	
+	width: 40px;
+}
+
+.taBrochureDl
+{
+	margin: 10px 0 0 0;
+	padding: 5px 0;
+}
+
+.taBrochureDl a
+{
+	font-size: 0.7em;
+}
+
+/* imageLibrary */
+
+.imageLibraryEula p
+{
+	font-size: 0.7em;
+}
+
+.imageLibraryEula div
+{
+	text-align: center;
+}
+
+.imageLibraryEula a
+{
+	text-transform: uppercase;
+}
+
+/* contactUs */
+
+.taContactHeader h3
+{	
+	color:#BA533C;
+	padding:0 0;
+	border:none;	
+}
+
+.taContactHeader h5
+{
+	font-weight:bold;	
+}
+
+/* TA Google Mini */
+
+.taGoogleHeader
+{
+	padding:0;
+}
+.taHeaderGoogleMiniSearch
+{
+	padding:83px 0 0 0;
+}
+
+a.agentEula
+{
+	font-size: 0.8em;
+	text-transform: uppercase;
+	margin-left: 25px;
+}
+
+
+/* Training Form */
+.taFormTraining
+{
+	padding:2px 0 2px 30px;	
+}
+
+.watermarkPostLogin
+{
+	width:300px;
+	color:#999999;	
+}
+
+/* Radio List */
+.radioList input
+{
+	vertical-align:middle;
+}
+
+/* my account info form */
+
+.myAcctInfo
+{
+	padding:0px 36px;
+}
+
+.myAcctInfo p
+{
+	line-height: 1.5;
+	font-size: 0.8em;
+	padding: 5px 0;
+}
+
+.myAcctInfoForm
+{
+	padding:10px 20px;
+}
+
+.myAcctInfoForm_a {
+	float: left;
+	background-color: #EDEDED;
+	padding: 8px 5px 2px 5px;
+	margin: 1px;
+	width: 120px;
+	height: 20px;	
+	font-size: 0.7em;
+}
+
+.myAcctInfoForm_b {	
+	float: left;
+	background-color: #E7EFF7;
+	padding: 8px 5px 2px 5px;
+	height: 20px;
+	margin: 1px;
+	width: 160px;
+	font-size: 0.7em;
+}
+
+.myAcctInfoForm_d {		
+	background-color: #E7EFF7;		
+	text-align:center;
+	width:610px;	
+	font-size: 0.7em;
+}
+
+/* searchsailingitinerary accordion */
+.itineraryDetailTxt
+{
+	display: none;	
+}
+
+/* olb */
+.olbFormItemDDL
+{
+	margin-left: 10px;	
+}
+
+.olbNote
+{
+	font-size: 0.7em;
+	color: #FF0000; /* red */
+}
+
+.taFormItemNoClear
+{	
+	padding: 5px 0 5px 5px;	
+}
+
+.olbSubHeader h3
+{
+	font-weight:bold;
+	color:#000;
+	padding: 0 0 5px 5px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	border: none! important;
+}
+
+.olbSubHeader
+{
+	border-bottom: solid 1px #ccc;	
+}
+
+.olbFormSection
+{
+	padding:10px 0px;	
+}
+
+.olbFloatLink
+{
+	float: right;
+	font-size: 0.8em;
+	padding-top: 3px;
+}
+
+.invoiceGridNegNumber
+{
+	color: #FF0000;
+}
+
+.invoiceGridText
+{
+	width: 300px;
+}
+
+.paxItem
+{
+	float: left; width: 250px; font-size: 0.8em;
+}
+
+/* simpleModal-Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* simpleModal-Container */
+#simplemodal-container {background-color:#fff; border:1px solid #ccc;}
+
+.twitterFollow
+{
+    width: 210px;
+    margin: 0px auto;
+    padding: 0 0 15px 0;
+}
