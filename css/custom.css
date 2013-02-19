@@ -360,7 +360,8 @@ li #hpfac .cta a.reset {
 }
 
 .mainContent {
-	font-size:18px;
+	/*font-size:18px; original size */
+	font-size:14px;
 	width:600px;
 	padding:28px 30px 0;
 }
