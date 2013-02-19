@@ -4,43 +4,7 @@
 
 
 
-#header-wrapper {background-color: transparent;}
-
-#header-center ul {
-list-style: none;
-}
-
-#header-center ul li {
-	float: left;
-	color: #303030;
-	
-}
-
-#header-tabs {
-	font-size: 13px;
-	color: #303030;
-}
-
-#header-tabs li {
-	background-color: #e4e4e4; 
-	height: 30px;
-    line-height: 30px;
-    position: relative;
-    padding:  0 20px;
-}
 
 
-#header-contact {
-	float: right;
-	padding:  3px 0 0 0;
-}
-
-#header-contact li {
-    padding: 1px 10px 0 0;
-    font-size: 10px;
-}
-
-
-#ctl00_header_lnkVrc .logo, #contact {padding: 0!important;}
 
 
