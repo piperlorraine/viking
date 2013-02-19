@@ -238,13 +238,13 @@ body #heroCarousel, body #heroCarousel .jcarousel-clip, body #heroCarousel a.her
 	color:#606060;
 	padding:0 0 20px;
 }
-.threeUp {
+body ul.threeUp {
 	margin:0;
-	padding:30px 7px 15px;
+	padding:10px 7px 3px;
 }
-.threeUp li {
-	margin-right: 8px;
-}
+  .threeUp li {
+	  margin-right: 8px;
+  }
 div.findAcruiseFeat {
 	background-color:#dbd8d5;
 }
