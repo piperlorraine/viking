@@ -1,3 +1,74 @@
 @charset "UTF-8";
 /* CSS Document */
 
+#bodyWrapper {width: 1160px;}
+
+div#mainNav ul.level1 li.l1 {
+background-image: url('file:///C:/Users/jimmyfikes/Desktop/viking-master/images/btn-bg.jpg')!important;
+background-repeat: repeat-x;
+border: 1px solid #fff;
+color: #333333;
+font-weight: bold;
+font-size: 13.5px;
+}
+
+#header-wrapper {background-color: #e8e8e8;}
+
+#header {
+	width: 1160px;
+	height: 40px;
+	margin: 0 auto;
+    background-image: url('file:///C:/Users/jimmyfikes/Desktop/viking-master/images/header-center-bg.jpg');
+}
+
+#header-center {
+	width: 550px; 
+	margin: 10px 150px; 
+	float: right;}
+
+#header-center ul {
+list-style: none;
+}
+
+#header-center ul li {
+	float: left;
+	color: #303030;
+	
+}
+
+#header-tabs {
+	font-size: 13px;
+	color: #303030;
+}
+
+#header-tabs li {
+	background-color: #e4e4e4; 
+	height: 30px;
+    line-height: 30px;
+    position: relative;
+    padding:  0 20px;
+}
+
+.current {
+	z-index: 500;
+	background-color: #eeeeee!important;
+	margin: -5px 0 0 -10px;
+	height: 35px!important;
+}
+
+#header-contact {
+	float: right;
+	padding:  3px 0 0 0;
+}
+
+#header-contact li {
+    padding: 1px 10px 0 0;
+    font-size: 10px;
+}
+
+#logo-contact {width: 960px; margin: 0 auto;}
+
+#ctl00_header_lnkVrc .logo, #contact {padding: 0!important;}
+
+#contact div.email {display: none;}
+
