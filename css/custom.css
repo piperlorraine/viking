@@ -109,13 +109,26 @@ body, html {
 		border-left:none;
 	}
 	div#mainNav ul.level1 li.l1 a span {
-		padding:10px 28px;
+		padding:10px 0;
+		text-align:center;
+	}
+	div#mainNav ul.level1 li.whyTab a span {
+		width:149px;
 	}
 	div#mainNav ul.level1 li.videoTab a span {
-		padding:10px 30px
+		width:117px;
 	}
 	div#mainNav ul.level1 li.facSelect a span {
-		padding:10px 31px 10px 30px;
+		width:117px;
+	}
+	div#mainNav ul.level1 li.shipsTab a span {
+		width:110px;
+	}
+	div#mainNav ul.level1 li.brochureTab a span {
+		width:150px;
+	}
+	div#mainNav ul.level1 li.tripTab a span {
+		width:130px;
 	}
 	div#mainNav ul.level1 li.l1 a.l1 {
 		background:url(../images/menu-bg.jpg) repeat-x;
