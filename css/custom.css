@@ -192,7 +192,7 @@ div#heroWrapper {
 	overflow:hidden;
 }
 body #heroCarousel, body #heroCarousel .jcarousel-clip, body #heroCarousel a.heroImg {
-	width:100%;
+	width:100% !important;
 	height:479px;
 }
 #heroCarousel a.slide1 {
@@ -318,6 +318,9 @@ li #hpfac .cta a.reset {
 		margin-left:19px;
 	}
 /* SUBPAGE */
+.locationHeading, .cruiseHeading {
+	height:253px;
+}
 .locationHeading div {
 	width:100%;
 	height:253px;
@@ -331,7 +334,7 @@ li #hpfac .cta a.reset {
 	padding:13px 0;
 	color:#303030;
 }
-#breadcrumb a {
+#breadcrumb a, #breadcrumb a:link, #breadcrumb span.spacer, #breadcrumb a:visited {
 	color:#303030;
 }
 

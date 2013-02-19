@@ -151,10 +151,6 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
 
 			
 
-			
-
-			
-
 
 <div class="clearfix" id="header-wrapper">
 <div id="header">
@@ -166,8 +162,9 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
     </div>
 
     <ul id="header-contact">
-    <li>ABOUT US&nbsp;&nbsp;&nbsp;|</li>
-    <li>CONTACT US</li>
+    <li><a href="#">ABOUT US</a></li>
+    <li>|</li>
+    <li><a href="#">CONTACT US</a></li>
     </ul>
 
 </div>
@@ -178,20 +175,27 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
 
 
     <div id="contact" class="clearfix nonCoBranded">
+    
+    	
+		<ul>
+        	<li><a href="#"><img src="images/header-chat.png" /></a></li>
+        	<li><a href="#"><img src="images/header-email.png" /></a></li>
+        	<li id="call"><img id="ctl00_header_imgCall" src="images/header-phone.png" alt="Call Viking Icon" /><p>Contact your travel agent or<br/> call <span class="phoneNum">1-800-706-1483</span></p></li>
+            <li><div id="ctl00_header_pnlSearch" class="search" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_header_btnSearch')">
+
+    <input name="ctl00$header$txtSearch" type="text" maxlength="200" id="ctl00_header_txtSearch" value="SEARCH" />
+    <!--<input type="image" name="ctl00$header$btnSearch" id="ctl00_header_btnSearch" src="http://www.vikingrivercruises.com/images/topSearchBtn.jpg" />-->
+    </div></li>
+    </ul>
 
 
-        <div id="call"><p><img id="ctl00_header_imgCall" src="http://www.vikingrivercruises.com/Images/phone_tcm70-9137.jpg" alt="Call Viking Icon" style="height:13px;width:15px;border-width:0px;" />Contact your travel agent or<br/> call <em>1-800-706-1483</em></p></div>
-
+<!--
         <div id="ctl00_header_email" class="email"><h2><a id="ctl00_header_lnkEmail" href="https://www.vikingrivercruises.com/subscribe/index.aspx"><img id="ctl00_header_imgEmail" src="http://www.vikingrivercruises.com/Images/email_tcm70-9138.jpg" alt="Email Viking Icon" style="height:10px;width:15px;border-width:0px;" />Sign up for special offers on river cruises</a></h2></div>
 
-
-        <div id="ctl00_header_pnlSearch" class="search" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_header_btnSearch')">
-
-    <p><input name="ctl00$header$txtSearch" type="text" maxlength="200" id="ctl00_header_txtSearch" style="width:183px;" /><input type="image" name="ctl00$header$btnSearch" id="ctl00_header_btnSearch" src="http://www.vikingrivercruises.com/images/topSearchBtn.jpg" style="height:18px;width:18px;border-width:0px;" /></p>
-
-</div>
+-->
 
     </div>
+
 
     <div id="mainNav" class="clearfix">
 
