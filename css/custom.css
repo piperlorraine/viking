@@ -200,6 +200,7 @@ body, html {
 		font-size:14px;
 		color:#474747;
 		padding-top:9px\9;
+		text-transform:uppercase;
 	}
 div#heroWrapper {
 	width:100%;
