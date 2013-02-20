@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c4e76c7-7f7b-43d9-8ed5-547294fca636" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sass_stdlib.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/index.html" afterPath="$PROJECT_DIR$/contact/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/grid.css" afterPath="$PROJECT_DIR$/css/grid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/why-viking/index.html" afterPath="$PROJECT_DIR$/why-viking/index.html" />
     </list>
     <ignored path="viking.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +25,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="894" column="64" selection-start="43507" selection-end="43507" vertical-scroll-proportion="0.8">
+            <state line="894" column="64" selection-start="43507" selection-end="43507" vertical-scroll-proportion="0.48863637">
               <folding>
                 <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -240,13 +236,18 @@
       <created>1361225595899</created>
       <updated>1361225595899</updated>
     </task>
+    <task id="LOCAL-00001" summary="added Grid">
+      <created>1361320132873</created>
+      <updated>1361320132873</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="666" y="525" width="1164" height="537" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932693" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -351,7 +352,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="894" column="64" selection-start="43507" selection-end="43507" vertical-scroll-proportion="0.8">
+        <state line="894" column="64" selection-start="43507" selection-end="43507" vertical-scroll-proportion="0.48863637">
           <folding>
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
