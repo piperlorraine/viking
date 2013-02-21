@@ -50,10 +50,11 @@ s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
 .mll,.mhl,.mal{margin-left:20px !important}
 .mra,.mha{margin-right:auto !important}
 .mla,.mha{margin-left:auto !important}
+.ml30{margin-left:30px !important}
+.mt15{margin-top:15px !important}
 .ml60,.mh60,.ma60{margin-left:60px !important}
 .mr60,.mh60,.ma60{margin-right:60px !important}
 .mt60,.mv60,.ma60{margin-top:60px !important}
 .mb60,.mv60,.ma60{margin-bottom:60px !important}
 .mr80{margin-right: 80px !important}
 .ml80{margin-left:80px !important}
-.ml30{margin-left:30px !important}

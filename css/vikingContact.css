@@ -30,11 +30,23 @@
 }
 .vrcContact .line .hr {
     border-top:1px solid #BA533C;
+    display: block;
 }
 .vrcContact .caps{
     text-transform: uppercase;
 }
 .vrcContact .container fieldset.preferredMethod input[type=radio],
 .vrcContact .container fieldset.preferredMethod label{
+    display: inline-block;
+}
+.vrcContact .container fieldset.callTime span.callHolder{
+    float:right;
+}
+.vrcContact .container fieldset.callTime span.callHolder span{
+    display: block;
+    float:left;
+}
+.vrcContact .container fieldset.callTime span.callHolder span input[type=radio],
+.vrcContact .container fieldset.callTime span.callHolder span label{
     display: inline-block;
 }
