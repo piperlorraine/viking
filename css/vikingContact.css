@@ -1,7 +1,10 @@
 /* Master Class for contact */
-.vrcContact{}
+.vrcContact{ font-family: "brandon" sans-serif;}
 .vrcContact #bread-crumb{
     background: #e9e9e9;
+}
+.vrcContact .indent .line{
+    padding: 0 50px 0 60px;
 }
 .vrcContact #bread-crumb h1{
     font-size:11px;
@@ -10,9 +13,18 @@
 
 }
 .vrcContact .container h2{
-    font-size: 18px;
+    font-size: 22px;
     color: #BA533C;
+    font-family: "brandon" sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0 20px -20px;
+    position: relative;
+    z-index: 999;
+    display: block;
 }
 .vrcContact .line .hr {
-    border:1px solid red;
+    border-top:1px solid #BA533C;
+}
+.vrcContact .caps{
+    text-transform: uppercase;
 }
