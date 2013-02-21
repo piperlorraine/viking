@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c4e76c7-7f7b-43d9-8ed5-547294fca636" name="Default" comment="">
-<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact/index.html" afterPath="$PROJECT_DIR$/contact/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/spacing.css" afterPath="$PROJECT_DIR$/css/spacing.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/vikingContact.css" afterPath="$PROJECT_DIR$/css/vikingContact.css" />
-=======
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jqueries.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/index.html" afterPath="$PROJECT_DIR$/home/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/why-viking/index.html" afterPath="$PROJECT_DIR$/why-viking/index.html" />
->>>>>>> d87f1e5485bf43bc0dbb814327ebb357d5b2e279
     </list>
     <ignored path="viking.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,71 +24,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact/index.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="1001" column="26" selection-start="49270" selection-end="49270" vertical-scroll-proportion="0.2601156">
-              <folding />
-=======
-            <state line="871" column="6" selection-start="42682" selection-end="42682" vertical-scroll-proportion="-0.64">
+            <state line="893" column="65" selection-start="43456" selection-end="43471" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/functions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jqueries.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jqueries.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/home/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="58" selection-start="944" selection-end="944" vertical-scroll-proportion="0.62540716">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#li#2;n#ul#3;n#div#0;n#div#2;n#div#2;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#noscript#1;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
->>>>>>> d87f1e5485bf43bc0dbb814327ebb357d5b2e279
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vikingContact.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="vikingContact.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/vikingContact.css">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="5" column="25" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-=======
-            <state line="16" column="25" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
->>>>>>> d87f1e5485bf43bc0dbb814327ebb357d5b2e279
+            <state line="37" column="23" selection-start="864" selection-end="864" vertical-scroll-proportion="0.82341653">
               <folding />
             </state>
           </provider>
@@ -113,29 +54,11 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/why-viking/index.html">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state line="1080" column="8" selection-start="65765" selection-end="65765" vertical-scroll-proportion="0.0">
+            <state line="1079" column="0" selection-start="52736" selection-end="52736" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1361311718000" expanded="true" signature="2306:67975" placeholder="..." />
-                <marker date="1361311718000" expanded="true" signature="2455:67969" placeholder="..." />
-                <marker date="1361311718000" expanded="true" signature="5378:67968" placeholder="..." />
-                <marker date="1361311718000" expanded="true" signature="54912:55414" placeholder="..." />
-=======
-            <state line="1080" column="8" selection-start="52745" selection-end="52745" vertical-scroll-proportion="-0.64">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#li#2;n#ul#3;n#div#0;n#div#2;n#div#2;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#noscript#1;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
->>>>>>> d87f1e5485bf43bc0dbb814327ebb357d5b2e279
+                <marker date="1361410808000" expanded="true" signature="2306:54815" placeholder="..." />
+                <marker date="1361410808000" expanded="true" signature="2455:54809" placeholder="..." />
+                <marker date="1361410808000" expanded="true" signature="5378:54808" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -169,30 +92,19 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/region.html" />
+        <option value="$PROJECT_DIR$/why-viking/index.html" />
         <option value="$PROJECT_DIR$/css/grid.css" />
         <option value="$PROJECT_DIR$/css/spacing.css" />
-        <option value="$PROJECT_DIR$/css/vikingContact.css" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/contact/index.html" />
-=======
-        <option value="$PROJECT_DIR$/why-viking/index.html" />
-        <option value="$PROJECT_DIR$/js/jqueries.js" />
-        <option value="$PROJECT_DIR$/home/index.html" />
->>>>>>> d87f1e5485bf43bc0dbb814327ebb357d5b2e279
+        <option value="$PROJECT_DIR$/css/vikingContact.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
-    <option name="x" value="1112" />
-    <option name="y" value="401" />
+    <option name="x" value="1010" />
+    <option name="y" value="386" />
     <option name="width" value="708" />
     <option name="height" value="704" />
-=======
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="826" />
->>>>>>> d87f1e5485bf43bc0dbb814327ebb357d5b2e279
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -220,6 +132,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,20 +175,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -296,17 +195,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../xeoValidate" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/home" />
-    </key>
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -351,21 +245,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="1112" y="401" width="708" height="704" extended-state="0" />
-=======
-    <frame x="0" y="22" width="1440" height="826" extended-state="6" />
->>>>>>> d87f1e5485bf43bc0dbb814327ebb357d5b2e279
+    <frame x="1010" y="386" width="708" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24715163" sideWeight="0.6706731" order="0" side_tool="false" content_ui="combo" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24700071" sideWeight="0.6706731" order="0" side_tool="false" content_ui="combo" />
->>>>>>> d87f1e5485bf43bc0dbb814327ebb357d5b2e279
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24671532" sideWeight="0.54950047" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -437,6 +323,45 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/contact/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="1001" column="26" selection-start="49270" selection-end="49270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/vikingContact.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/grid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="82" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/why-viking/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1079" column="0" selection-start="52736" selection-end="52736" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1361410808000" expanded="true" signature="2306:54815" placeholder="..." />
+            <marker date="1361410808000" expanded="true" signature="2455:54809" placeholder="..." />
+            <marker date="1361410808000" expanded="true" signature="5378:54808" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/spacing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="7" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="871" column="6" selection-start="42682" selection-end="42682" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -459,12 +384,10 @@
     <entry file="file://$PROJECT_DIR$/why-viking/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1080" column="8" selection-start="65765" selection-end="65765" vertical-scroll-proportion="0.0">
-<<<<<<< HEAD
           <folding>
-            <marker date="1361311718000" expanded="true" signature="2306:67975" placeholder="..." />
-            <marker date="1361311718000" expanded="true" signature="2455:67969" placeholder="..." />
-            <marker date="1361311718000" expanded="true" signature="5378:67968" placeholder="..." />
-            <marker date="1361311718000" expanded="true" signature="54912:55414" placeholder="..." />
+            <marker date="1361410808000" expanded="true" signature="2306:54815" placeholder="..." />
+            <marker date="1361410808000" expanded="true" signature="2455:54809" placeholder="..." />
+            <marker date="1361410808000" expanded="true" signature="5378:54808" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -478,40 +401,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/why-viking/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1080" column="8" selection-start="65765" selection-end="65765" vertical-scroll-proportion="0.0">
+        <state line="1079" column="0" selection-start="52736" selection-end="52736" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1361311718000" expanded="true" signature="2306:67975" placeholder="..." />
-            <marker date="1361311718000" expanded="true" signature="2455:67969" placeholder="..." />
-            <marker date="1361311718000" expanded="true" signature="5378:67968" placeholder="..." />
-            <marker date="1361311718000" expanded="true" signature="54912:55414" placeholder="..." />
-=======
-          <folding>
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#li#2;n#ul#3;n#div#0;n#div#2;n#div#2;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#noscript#1;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
->>>>>>> d87f1e5485bf43bc0dbb814327ebb357d5b2e279
+            <marker date="1361410808000" expanded="true" signature="2306:54815" placeholder="..." />
+            <marker date="1361410808000" expanded="true" signature="2455:54809" placeholder="..." />
+            <marker date="1361410808000" expanded="true" signature="5378:54808" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/spacing.css">
+    <entry file="file://$PROJECT_DIR$/../oocss/core/spacing/space.css">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state line="6" column="36" selection-start="0" selection-end="2209" vertical-scroll-proportion="0.0" />
-=======
-        <state line="51" column="38" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
->>>>>>> d87f1e5485bf43bc0dbb814327ebb357d5b2e279
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/grid.css">
@@ -528,83 +429,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/vikingContact.css">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="5" column="25" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-          <folding />
-=======
-        <state line="16" column="25" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/why-viking/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1080" column="8" selection-start="52745" selection-end="52745" vertical-scroll-proportion="-0.64">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#li#2;n#ul#3;n#div#0;n#div#2;n#div#2;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#noscript#1;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
->>>>>>> d87f1e5485bf43bc0dbb814327ebb357d5b2e279
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contact/index.html">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="1001" column="26" selection-start="49270" selection-end="49270" vertical-scroll-proportion="0.2601156">
-=======
-        <state line="871" column="6" selection-start="42682" selection-end="42682" vertical-scroll-proportion="-0.64">
->>>>>>> d87f1e5485bf43bc0dbb814327ebb357d5b2e279
+        <state line="893" column="65" selection-start="43456" selection-end="43471" vertical-scroll-proportion="-13.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js">
+    <entry file="file://$PROJECT_DIR$/css/vikingContact.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jqueries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="58" selection-start="944" selection-end="944" vertical-scroll-proportion="0.62540716">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#li#5;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#li#2;n#ul#3;n#div#0;n#div#2;n#div#2;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#noscript#1;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="37" column="23" selection-start="864" selection-end="864" vertical-scroll-proportion="0.82341653">
+          <folding />
         </state>
       </provider>
     </entry>
