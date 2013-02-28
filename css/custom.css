@@ -556,3 +556,196 @@ li #hpfac .cta a.reset {
   #copyright p span {
   	font-size:14px;
   }
+
+
+  /*** Cruise List Page ***/
+
+  #top-banner {
+  	width:1360px;
+	margin:0 auto;
+	height:255px;
+	overflow:hidden;
+  }
+
+  #cruise-listings {
+  	width: 600px;
+  	margin: 0 30px 0 0;
+  }
+
+  #cruise-listings-right-panel {
+  	height: 400px;
+  	width: 290px;
+  }
+
+   #cruise-listings-right-panel, #cruise-listings {
+   	float: left;
+   }
+
+   .breadcrumb-container {
+   	width: 100%;
+   	margin: 5px 0;
+   }
+
+   .bread-crumb {
+   	width: 960px;
+   	margin: 0 auto;
+   	color: #333;
+   	font-size: 12px;
+   	padding: 5px;
+   }
+
+   .cruise-intro, .cruise-details {
+   	width: 590px;
+   	display: block;
+   }
+
+   .cruise-intro h1 {
+   	padding: 25px 0;
+   }
+
+   .cruise-detail {
+    border-top: 1px solid #d6d6d6;
+    margin: 25px 0 0 0;
+    overflow: auto;
+   }
+
+   .cruise-detail:last-child {
+   	margin: 25px 0 150px 0;
+   }
+
+   .cruise-detail img {
+   	width: 206px; 
+   	height: 178px;
+   	margin: 20px 20px 0 0; 
+   	float: left;
+   }
+
+   .cruise-info {
+   	margin: 20px 0 0 0;
+   	float: left;
+   }
+
+   .cruise-info p {
+   	width: 370px;
+   	font-size: 12px;
+   	margin: 10px 0 20px 0;
+   	line-height: 22px;
+   }
+
+   .cruise-info h3 {
+   	margin: 0 0 10px 0;
+   }
+
+   .cruise-info h5 span {
+   	text-transform: uppercase;
+   }
+
+   .social-media-box, .about-country-box, .great-value-box, .paper-box {
+   	width: 291px;
+   	display: block;
+   	margin: 0 0 5px 0;
+   	color: #9e1b32;
+   }
+
+    .social-media-box {
+    height: 55px;
+   	background-color: #f1f1f1;
+   }
+
+   .about-country-box {
+   	height: 40px;
+   	background-color: #e2e2e2;
+   	font-size: 16px;
+
+   }
+
+   .great-value-box {
+   	background-color: #f1f1f1;
+   	height: 150px;
+   }
+
+   .paper-box {
+   	background:url(../images/paper-bg.png) repeat-y;
+   	padding: 10px 0 10px 0;
+   }
+
+   .paper-box-border1, .paper-box-border2 {
+   	border: 1px solid #dedede;
+   	background-image: none!important;
+   	padding: 5px!important;
+   }
+
+   .paper-box-border1 {
+   	width: 265px;
+   	margin: 0 auto;
+   }
+
+   .paper-box-border2 {
+	width: 250px;
+	margin: 0 auto;
+   }
+
+   .paper-box-border2 h3, .great-value-box h3 {
+    font-size: 16px;
+    font-weight: bold;
+   }
+
+   .paper-box-border2 h3 {
+    margin: 20px 0 35px 20px;    
+   }
+
+   .great-value-box h3, .great-value-box p {
+   	padding: 20px 0 0 20px;
+   }
+
+   .great-value-box p {
+   	font-size: 13px;
+   	width: 240px;
+   }
+
+   .paper-box-border2 ul {
+    list-style: none;
+   }
+
+   .paper-box-border2 ul li {
+    margin: 0 0 20px 20px;
+    font-size: 14px;
+    background:url(../images/click-arrow.png) no-repeat;
+    background-position: 200px 0px;
+    width: 100%;
+   }
+
+   #cruise-listings-right-panel div div {
+    padding: 10px 0 0 35px;
+    background:url(../images/click-arrow.png) no-repeat;
+    background-position: 235px 13px;
+   }
+
+   .cruise-country {
+   background-color: #e2e2e2;
+   padding: 5px;
+   width: 280px;
+   }
+
+   .cruise-country h1 {
+   	width: 230px;
+   	margin: 0 0 0 12px;
+    font-size: 13px;
+    padding: 5px;
+   }
+
+   .select-country li {
+   	background-color: #f1f1f1;
+   	height: 37px;
+   	border: 1px solid #fff;
+   	display: block;
+   	margin: 0;
+   	color: #9e1b32;
+   	width: 268px;
+   	padding: 20px 0 0 20px;
+   	font-size: 15px;
+   	background-image: url(../images/click-plus.png);
+   	background-repeat: no-repeat;
+    background-position: 240px 22px;
+   }
+
