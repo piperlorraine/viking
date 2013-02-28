@@ -1,0 +1,210 @@
+           body {margin: 0; padding: 0; background-color: #bfbfbf; font-size: 100%; font-family: helvetica, arial, san-serif;}
+           ul, h1, h2, p {margin: 0; padding: 0;}
+           a {text-decoration: none;}
+           ul {list-style: none;}
+           #ipad #container {width: 60em; margin: 0 auto; background-color: #fff; overflow: hidden;}
+           
+           header {width: 100%; height: 5.62em; background: url('../images/header_bg.png') repeat-x; border-bottom: 2px solid #fff;}
+                header .header_center, .oceans-header_center {                     
+                    background-color: #fff; 
+                    margin: 0 auto; 
+                    border-left: 2px solid #d1d1d1; 
+                    border-right: 2px solid #d1d1d1;}
+                    header .header_center img {width: 76%; margin: 1.8em 3.4em;}
+                    header .header_center {width: 56%;}
+                                      
+
+                section.image-holder {width: 100%; border-top:4px solid #9e1b32; overflow: auto;}
+                    section.image-holder ul {list-style: none; margin: 0; padding: 0;}
+                    section.image-holder ul li {font-family: times, serif; float: left; width: 49.45%;}
+                    section.image-holder ul li a {color: #000;}
+                    section.image-holder ul li img {width: 100%;}
+                    section.image-holder ul li div {
+                        text-align: center; 
+                        background-color: #ebe7e4;
+                        font-size: 1.31em;
+                        font-weight: bold; 
+                        padding: 1.25em;
+                        margin:  -0.3em 0 0 0;}
+                    section.image-holder ul li:first-child {margin: 0 0.63em 0 0;}
+
+                
+                section.explorer_the_world {
+                    width: 100%; 
+                    height: 2.8em; 
+                    background-color: #9e1b32; 
+                    margin: 1.875em 0 0 0; 
+                    box-shadow: 0 0.23em 0.5em 0em #999;
+                    -moz-box-shadow: 0 0.23em 0.5em 0em #999;
+                    -webkit-box-shadow: 0 0.23em 0.5em 0em #999;}
+                    section.explorer_the_world div { 
+                         height: 2.2em; 
+                         background: url('../images/explore_bg.png') repeat-x; 
+                         margin: 0 0 0 0.53em; 
+                         padding:  0.875em 0 0 2.15em; 
+                         font-weight: bold;}
+                    section.explorer_the_world ul {
+                         width: 100%; 
+                         height: 5.875em; 
+                         margin:  -0.065em 0 0 0;}
+                    section.explorer_the_world ul li {
+                         float: left; 
+                         border-right: 1px solid #d1d1d1;
+                         font-size: 0.875em;
+                         color: #303030;}
+                    section.explorer_the_world ul li:last-child span {font-size: 1.626em;}
+                    section.explorer_the_world ul li:last-child {border: none; padding: 1.875em 0 0 2.8em;}
+
+                section.about_contact {clear: both;}
+                    section.about_contact ul {width: 100%; border-bottom: 1px solid #d1d1d1;}
+                    section.about_contact ul li {width: 43%; float: left; text-align: center; padding: 1.5em 1em; font-size: 1.31em;}
+                    section.about_contact ul li:first-child {border-right: 1px solid #d1d1d1;}
+
+                section.search {width: 100%; height: 5.5em; background: url('../images/search_bg.png') repeat-x; border-top: 2px solid #d1d1d1; border-bottom: 2px solid #d1d1d1; clear: both;}
+                    .search_middle {
+                        width: 67%; 
+                        height: 4.8em; 
+                        margin: 0 auto;}
+
+                    .search_middle input {width: 89%; 
+                        height: 4.93em; 
+                        margin: 0.80em auto; 
+                        padding: 0 0 0 4.25em;  
+                        background: url('../images/m-glass.png') no-repeat 1.3em 1.4em;
+                        background-color: #f7f7f7;                     
+                        -webkit-box-shadow: inset 0em 0em 0.625em 0em #999; 
+                        -moz-box-shadow: inset 0em 0em 0.625em 0em #999; 
+                        box-shadow: inset inset 0em 0em 0.625em 0em #999;
+                        font-weight: bold;
+                        color: #636363;}
+
+                section.footer_links {width: 100%; overflow: auto;}
+                    section.footer_links ul {width: 50%; float: left; margin: 1.875em auto; font-size: 1.0625em;}
+                    section.footer_links ul li {
+                        width: 80%;
+                        color: #474747;
+                        margin: 0 auto; 
+                        border-bottom: 1px solid #d1d1d1; 
+                        padding: 0.5em 0.5em 0.5em 0;
+                        text-transform: uppercase;}
+                        section.footer_links ul li:last-child {border: none;}
+                        section.footer_links ul li img {padding: 0 0.31em 0 0;}
+                footer {width: 100%;}
+                    footer div {
+                        width: 33%; 
+                        margin: 1em auto 6em; 
+                        text-align: center; 
+                        text-transform: uppercase; 
+                        line-height: 1.5em;
+                        letter-spacing: 0.25em;
+                        color: #071f2d;}
+
+
+                /*** Oceans Page  CSS (Grab css on line 7 for oceans container) ***/
+
+                .oceans-header_center {
+                        width: 95%; 
+                        margin: 0 auto;}  
+                    .oceans-header_center div {float: left; height: 5.5625em;}
+                    .oceans-header_center div img {margin: 1.875em 0 0 0;}
+                    .oceans-header_center #oceans-logo {
+                        width: 22.1875em; 
+                        background-color: #fff;
+                        border-left: 2px solid #d1d1d1; 
+                        border-right: 2px solid #d1d1d1;}
+                    .oceans-header_center #oceans-logo img {width: 80%; margin: 2em auto; padding: 0 0 0 2.2em;}
+
+                    .oceans-header_center .pagination-btn {width: 17.1875em;} 
+                    .oceans-header_center #page-next {text-align: right; border-left: 1px solid #fff;}
+                    .oceans-header_center #page-prev {text-align: left; border-right: 1px solid #fff;}
+                    
+                section.video-holder {
+                        overflow: auto;
+                        box-shadow: 0 0.23em 0.5em 0em #999;
+                        -moz-box-shadow: 0 0.23em 0.5em 0em #999;
+                        -webkit-box-shadow: 0 0.23em 0.5em 0em #999;}
+                        section.video-holder img {width: 100%;}
+                        section.video-holder ul {
+                        }
+
+                        section.video-holder div {
+                            width: 100%;
+                            height: 380px;
+                            background: url('../images/oceans_video.png') repeat-x;
+                            overflow: hidden;
+                        }
+                        section.video-holder ul li {
+                        width: 33.22%; 
+                        height: 8.125em; 
+                        background-color: #333; 
+                        float: left; 
+                        background: url('../images/video-btn-bg.png') repeat-x;
+                        border-left: 1px solid #fff;
+                        border-left: 1px solid #d1d1d1;
+                        cursor: pointer;}
+
+                        section.video-holder ul li ul {
+                        overflow: none!important;
+                        box-shadow: none!important;
+                        margin: 0.8em;
+                        color: #9e1b32;
+                        font-weight: bold;
+                        }
+                        
+                        section.video-holder ul li ul li {
+                        width: 100%; 
+                        height: 1.125em; 
+                        background: none!important; 
+                        float: none!important; 
+                        background: none!important;
+                        border-left: none!important;
+                        border-left: none!important;
+                        }
+                        section.video-holder ul li ul li:first-child {font-style: italic;}
+
+                        section.video-holder ul li:hover, section.video-holder ul li.active {
+                        background: url('../images/video-btn-bg-over.png') repeat-x;}
+
+                        section.register, section.find-brochure ul li {
+                            background: url('../images/register.png') repeat-x;
+                            border-left: 4px solid #9e1b32;
+                        }
+                        section.register {
+                            width: 58.75em;
+                            height: 18.5em;
+                            margin: 1.25em auto 0.625em; 
+                        }
+
+                        section.register .container {width: 55em; height: 15.25em; margin: 0 auto;}
+                        section.register .container p {font-size: 0.8125em;}
+                        section.register .container h1 {padding: 1.25em 0 0 0; font-family: times, serif; letter-spacing: 0.3125em;}
+                        section.register .container form {}
+                        section.register .container form ul {width: 55em; margin: 1.5625em auto; overflow: auto;}
+                        section.register .container form input {
+                            width: 19.3em; 
+                            height: 4.0625em; 
+                            background-color: #fff; 
+                            float: left;
+                            margin: 0 1.375em 0 0;
+                            border: none;
+                            padding: 0 0 0 1.25em;
+                            color: #474747;}
+                            section.register .container .submit {
+                                width: 21.875em; 
+                                height: 4.5625em; 
+                                background: url('../images/submit.png') repeat-x; 
+                                margin: 0 auto;
+                                color: #fff;
+                                text-align: center;
+                                padding: 1.5625em 0 0 0;
+                                font-weight: bold;}
+
+                        section.find-brochure {width: 100%; overflow: auto;}
+                        section.find-brochure ul {width: 98.4%; margin: 0.625em auto; overflow: auto;}
+                        section.find-brochure ul li {width: 48.4%; height: 5.5625em; float: left;}
+                        section.find-brochure ul li:first-child {margin: 0 1.25em 0 0;}
+                        section.find-brochure ul li h2 {
+                            width: 90%; 
+                            margin: 1.35em 0 0 1.25em; 
+                            color: #303030; 
+                            background: url('../images/brochure_arrow.png') no-repeat 16.2em 0.3125em;}

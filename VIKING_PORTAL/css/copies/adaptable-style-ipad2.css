@@ -1,0 +1,106 @@
+           #ipad #container {width: 48em; margin: 0 auto; background-color: #fff; overflow: hidden;}
+           
+           header {width: 100%; height: 5em; background: url('../images/header_bg.png') repeat-x; border-bottom: 2px solid #fff;}
+                header .header_center, .oceans-header_center {
+                    width: 56%; 
+                    }
+
+
+
+            section.image-holder {width: 100%; border-top:4px solid #9e1b32; overflow: auto;}
+                    
+                    section.image-holder ul li:first-child {margin: 0 0.5em 0 0;}
+
+                
+            
+
+            
+                    section.about_contact ul li {width: 44%; float: left; text-align: center; padding: 1.5em 1em; font-size: 1.31em;}
+
+            
+
+                    .search_middle input {width: 89%; 
+                        margin: 0.625em auto; 
+
+                        padding: 0 0 0 4.25em;  
+                                             
+                        -webkit-box-shadow: inset 0px 0px 10px 0px #999; 
+                        -moz-box-shadow: inset 0px 0px 10px 0px #999; 
+                        box-shadow: inset 0px 0px 10px 0px #999;
+                        }
+
+            
+                    footer div {width: 40%; 
+                        margin: 2.8em auto; 
+
+
+
+                        text-align: center; 
+                        
+                        color: #071f2d;
+                        font-size: 0.875em;}
+
+                        /*** Oceans Page  CSS (Grab css on line 7 for oceans container) ***/
+
+            .oceans-header_center {
+                        width: 95%; 
+                        margin: 0 auto;}  
+                    .oceans-header_center div {float: left; height: 5em;}
+                    .oceans-header_center div img {margin: 1.5em 0 0 0;}
+                    .oceans-header_center #oceans-logo {
+                        width: 24em;}
+                    .oceans-header_center #oceans-logo img {width: 70%; margin: 1.75em auto; padding: 0 0 0 3.4375em;}
+                    .oceans-header_center .pagination-btn {width: 10.5em;} 
+                    
+            
+            section.video-holder {}
+                        
+                        section.video-holder ul {
+                        overflow: hidden;
+                        }
+
+                        section.video-holder div {
+                            height: 19em;
+                            background: url('../images/oceans_video_ipad.png') repeat-x;
+                        }
+                        section.video-holder ul li {
+                        width: 33.178%; 
+                        height: 5.5em;}
+
+                        
+                        section.register {
+                            width: 46.75em;
+
+                            margin: 1.5em auto 0.625em; 
+                        }
+
+                        section.register .container {width: 42.8125em; height: 15.25em; margin: 0 auto;}
+                        section.register .container p {font-size: 0.8125em;}
+                        section.register .container h1 {padding: 1em 0 0 0; font-family: times, serif; letter-spacing: 0.3125em;}
+                        section.register .container form {}
+                        section.register .container form ul {width: 40em; margin: 1.5625em auto; overflow: auto;}
+                        section.register .container form input {
+                            width: 13.3em; 
+
+                            height: 4.0625em; 
+                            background-color: #fff; 
+                            float: left;
+                            margin: 0 1.375em 0 0;
+                            border: none;
+                            padding: 0 0 0 1.25em;
+                            color: #474747;}
+                        
+                        section.find-brochure ul {width: 98%; margin: 0.625em auto; overflow: auto;}
+                        section.find-brochure ul li {width: 22.6em; height: 4.5em; float: left;}
+                        
+                        section.find-brochure ul li h2 {
+                            margin: 1.7em 0 0 1.2em;
+                            background: url('../images/brochure_arrow.png') no-repeat 19em 0.2em;
+                            font-size: 1em;}
+
+
+
+
+                    
+
+                    

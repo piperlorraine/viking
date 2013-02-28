@@ -1,0 +1,77 @@
+body {margin: 0; padding: 0; background-color: #bfbfbf; font-size: 100%; helvetica, arial, san-serif;}
+           ul, h1, h2 {margin: 0; padding: 0;}
+           ul {list-style: none;}
+           #ipad #container {width: 67%; margin: 0 auto; background-color: #fff; overflow: auto;}
+           
+           header {width: 100%; height: 5.56em; background: url('../images/header_bg.png') repeat-x; border-bottom: 2px solid #fff;}
+                header .header_center {
+                    width: 56%; 
+                    background-color: #fff; 
+                    margin: 0 auto; 
+                    border-left: 2px solid #d1d1d1; 
+                    border-right: 2px solid #d1d1d1;}
+                    header .header_center img {width: 76%; margin: 1.8em 3.4em;}
+
+                section.image-holder {width: 100%; border-top:4px solid #9e1b32; overflow: auto;}
+                    section.image-holder ul {list-style: none; margin: 0; padding: 0;}
+                    section.image-holder ul li {float: left; width: 49.45%;}
+                    section.image-holder ul li img {width: 100%;}
+                    section.image-holder ul li div {
+                        text-align: center; 
+                        background-color: #ebe7e4;
+                        font-size: 1.31em;
+                        font-weight: bold; 
+                        padding: 1.25em;
+                        margin:  -0.3em 0 0 0;}
+                    section.image-holder ul li:first-child {margin: 0 0.283em 0 0;}
+
+                
+                section.explorer_the_world {
+                    width: 100%; 
+                    height: 2.8em; 
+                    background-color: #9e1b32; 
+                    margin: 1.875em 0 0 0; 
+                    box-shadow: 0 0.83em 1.6em -0.25em #333;
+                    -moz-box-shadow: 0 0.83em 1.6em -0.25em #333;
+                    -webkit-box-shadow: 0 0.83em 1.6em -0.25em #333;}
+                    section.explorer_the_world div { 
+                         height: 2.8em; 
+                         background: url('../images/explore_bg.png') repeat-x; 
+                         margin: 0 0 0 0.53em; 
+                         padding:  0.875em 0 0 0.15em; 
+                         font-weight: bold;}
+                    section.explorer_the_world ul {
+                         width: 100%; 
+                         height: 5.875em; 
+                         border-bottom: 1px solid #d1d1d1; 
+                         margin:  -0.625em 0 0 0;}
+                    section.explorer_the_world ul li {
+                         float: left; 
+                         border-right: 1px solid #d1d1d1;
+                         font-size: 0.875em;
+                         color: #303030;}
+                    section.explorer_the_world ul li:last-child span {font-size: 1.626em;}
+                    section.explorer_the_world ul li:last-child {border: none; padding: 1.875em 0 0 2.8em;}
+
+                section.about_contact {clear: both;}
+                    section.about_contact ul {width: 100%; border-bottom: 1px solid #d1d1d1;}
+                    section.about_contact ul li {width: 44%; float: left; text-align: center; padding: 0.95em; font-size: 1.375em;}
+                    section.about_contact ul li:first-child {border-right: 1px solid #d1d1d1;}
+
+                section.search {width: 100%; height: 5.5em; background: url('../images/search_bg.png') repeat-x; border-top: 2px solid #d1d1d1; border-bottom: 2px solid #d1d1d1; clear: both;}
+                    .search_middle {width: 67%; height: 4.25em; margin: 0 auto;}
+                    .search_middle input {width: 100%; height: 3.93em; margin: 0.625em auto;}
+
+                section.footer_links {width: 100%; overflow: auto;}
+                    section.footer_links ul {width: 50%; float: left; margin: 1.875em auto; font-size: 1.0625em;}
+                    section.footer_links ul li {
+                        width: 80%;
+                        color: #474747;
+                        font-weight: bold; 
+                        margin: 0 auto; 
+                        border-bottom: 1px solid #d1d1d1; 
+                        padding: 0.5em 0.5em 0.5em 0;
+                        text-transform: uppercase;}
+                        section.footer_links ul li img {padding: 0 0.31em 0 0;}
+                footer {width: 100%;}
+                    footer div {width: 26%; margin: 2.8em auto; text-align: center; text-transform: uppercase; line-height: 1.875em;}
